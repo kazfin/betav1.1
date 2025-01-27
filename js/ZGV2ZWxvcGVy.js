@@ -3,7 +3,7 @@
 let x = "";
 
 document.getElementById("developerbutton").addEventListener("click", function() {
-    if (document.getElementById("developerbox").value === "cGFzc3dvcmQgKHNlY3VyZSk=") {
+    if (document.getElementById("developerbox").value === "password.5") {
         localStorage.setItem("ZGV2ZWxvcGVy", true);
         document.getElementById("developerbox").value = "- - - - -";
         document.getElementById("namebox").disabled = false;
